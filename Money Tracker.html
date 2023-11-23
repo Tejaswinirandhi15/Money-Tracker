@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)file:///C:/Users/HP/Documents/Rindex.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Money Tracker_files/styles.css">
+    <title>Money Tracker</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Money Tracker</h1>
+        <form id="transaction-form">
+            <label for="description">Description:</label>
+            <input type="text" id="description" required="">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" required="">
+            <select id="type" required="">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <button type="button" onclick="submitTransaction()">Add Transaction</button>
+        </form>
+        <div id="transaction-list"></div>
+    </div>
+    <script src="file:///C:/Users/HP/Documents/script.js"></script>
+
+</body></html>
